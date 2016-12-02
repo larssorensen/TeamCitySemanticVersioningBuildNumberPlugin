@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamcity-plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:shemas-jetbrains-com:teamcity-plugin-v1-xml">
+  <info>
+    <name>SemanticVersioningBuildNumber</name>
+    <display-name>SemanticVersioningBuildNumber</display-name>
+    <version>1.0.0</version>
+    <description>Updates build number according to semantic versioning</description>
+    <email>lars.sorensen@novanet.no</email>
+    <vendor>
+      <name>Novanet AS</name>
+      <url>http://www.novanet.no/</url>
+    </vendor>
+  </info>
+  <deployment use-separate-classloader="true" />
+</teamcity-plugin>
